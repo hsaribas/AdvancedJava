@@ -1,4 +1,4 @@
-package generics.interfacetype;
+package com.generics.interfacetype;
 
 //if a class implements a generic interface, this class has to be a generic class
 public class GenericClassImpl <T> implements GenericInterface<T> {

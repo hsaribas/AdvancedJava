@@ -1,4 +1,4 @@
-package generics;
+package com.generics;
 
 //you can use mor types 
 //public class GenericClassTwoParams<K,V,M,N,O>
@@ -37,9 +37,8 @@ public class GenericClassTwoParams<K,V> {
 
 	public static void main(String[] args) {
 		
-		GenericClassTwoParams<Integer, String> myMap=new GenericClassTwoParams<>(1,"John");
-		
-		System.out.println(myMap.getKey().toString()+":"+myMap.getValue());
+		GenericClassTwoParams<Integer, String> myObject=new GenericClassTwoParams<>(1,"John");
+	
 
 	}
 

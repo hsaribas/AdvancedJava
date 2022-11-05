@@ -1,10 +1,10 @@
-package generics;
+package com.generics;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class AnimalExample {
-static List<Animal> list=new ArrayList<>();
+static List<T extends Animal> list=new ArrayList<>();
 	public static void main(String[] args) {
 	
 		Animal animal=new Animal();
@@ -21,7 +21,7 @@ static List<Animal> list=new ArrayList<>();
 
 	}
 	
-	private static void method(Animal a) {
+	private static T void method(T extends Animal) {
 		list.add(a);
 	}
 

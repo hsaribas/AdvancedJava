@@ -1,4 +1,4 @@
-package generics;
+package com.generics;
 
 public class NonGenericClass {
 	

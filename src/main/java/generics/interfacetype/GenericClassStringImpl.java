@@ -1,4 +1,4 @@
-package generics.interfacetype;
+package com.generics.interfacetype;
 
 //while implementing generic interface to create normal class, you must provide a proper data type
 public class GenericClassStringImpl implements GenericInterface<String> {

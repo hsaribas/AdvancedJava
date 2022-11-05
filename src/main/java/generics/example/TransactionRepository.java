@@ -1,4 +1,4 @@
-package generics.example;
+package com.generics.example;
 
 import java.util.List;
 

@@ -51,14 +51,12 @@ public class WaitInterrupt {
 					balance = balance - amount;
 					System.out.println("Withdrawal is successfull. The current balance is " + balance);
 				}
-				}
 			}
-			
 		}
 	
 
 
-	
+	}
 
 	public void deposit(int amount) {
 		balance = balance + amount;

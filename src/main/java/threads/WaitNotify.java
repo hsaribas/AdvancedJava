@@ -56,7 +56,7 @@ public class WaitNotify {
 	
 
 		balance = balance - amount;
-		System.out.println("Withdrawal is successfull. The current balance is " + balance);
+		System.out.println("Withdrawal is seccussfull. The current balance is " + balance);
 	}
 
 	public void deposit(int amount) {
@@ -65,8 +65,8 @@ public class WaitNotify {
 
 		synchronized (this) {
 			notify();
-			//if you have more threads to wait, in order to notify, you can use notifyAll
-			//notifyAll() 
+			//�f you have more threads to wait, in order to notify, you can use notifyAll
+			//notifyAll();
 		}
 	}
 

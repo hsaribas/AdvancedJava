@@ -1,4 +1,4 @@
-package generics.interfacetype;
+package com.generics.interfacetype;
 
 public interface GenericInterface<T> {
 	

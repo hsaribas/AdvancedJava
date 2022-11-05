@@ -1,8 +1,10 @@
-package generics.bounded;
+package com.generics.bounded;
 
 
 //we can specify that a method accepts a type an all its subclasess(upper bound)
-
+//Upper Bounded
+	//It has to be sub class of the Number class
+//Burada Number üst sınırdır
 public class GenericsUpperBound <T extends Number> {
 	
 	T[] numberArray;
